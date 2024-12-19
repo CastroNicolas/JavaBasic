@@ -1,4 +1,4 @@
-public class PrimitiveNumbers {
+public class PrimitiveEnter {
     public static void main(String[] args) {
         byte numberByte = 67; //Between -128 to 127
         System.out.println("numberByte = " + numberByte);
@@ -24,5 +24,12 @@ public class PrimitiveNumbers {
         System.out.println("Max value in int = " + Integer.MAX_VALUE);
         System.out.println("Min value in int = " + Integer.MIN_VALUE);
 
+        long numerLong = 9223372036854774447L; // Between -9223372036854775808 to 9223372036854775807
+        System.out.println("numerLong = " + numerLong);
+        System.out.println("long type corresponds to byte in = " + Long.BYTES);
+        System.out.println("long type corresponds to bit in = " + Long.SIZE);
+
+        System.out.println("Max value in long = " + Long.MAX_VALUE);
+        System.out.println("Min value in long = " + Long.MIN_VALUE);
     }
 }
